@@ -10,36 +10,36 @@ include("includes/header.php");
 <form action="includes/save.php" method="POST">
   <div class="row">
     <div class="col">
-    <label for="">Name</label>
+    <label for="name">Name</label>
       <input type="text" class="form-control" name="name" placeholder="Insert your name" required>
     </div>
     <div class="col">
-    <label for="">Last name</label>
-      <input type="text" class="form-control" name="lastname" placeholder="Insert your last name" required>
+    <label for="lastname">Last name</label>
+      <input type="text" class="form-control" id="in_name" name="lastname" placeholder="Insert your last name" required>
     </div>
   </div>
   <div class="row pt-4">
     <div class="col">
     <label for="">Username</label>
-      <input type="text" class="form-control" name="username" placeholder="Create a username" required>
+      <input type="text" class="form-control" id="in_lastname" name="username" placeholder="Create a username" required>
     </div>
     <div class="col">
-    <label for="">Email</label>
-      <input type="email" class="form-control" name="email" placeholder="Email@email.com" required>
+    <label for="email">Email</label>
+      <input type="email" id="in_email" class="form-control" name="email" placeholder="Email@email.com" required>
     </div>
   </div>
   <div class="row pt-4">
     <div class="col">
-    <label for="">Password</label>
-      <input type="password" class="form-control" name="pass" placeholder="Insert password" required>
+    <label for="pass">Password</label>
+      <input type="password" class="form-control" id="in_pass" name="pass" placeholder="Insert password" required>
     </div>
     <div class="col">
-    <label for="">Confirm password</label>
-      <input type="password" class="form-control" name="confPass" placeholder="Confirm password" required>
+    <label for="confPass">Confirm password</label>
+      <input type="password" class="form-control" id="id_confPass" name="confPass" placeholder="Confirm password" required>
     </div>
   </div>
 
-  <button type="submit" class="btn btn-primary btn-block mt-4" name="register">Register</button>
+  <button type="submit" class="btn btn-primary btn-block mt-4" name="register" id="btnSubmit">Register</button>
 </form>
 </div>
 
