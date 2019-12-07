@@ -8,11 +8,11 @@ include("includes/header.php");
 <form method="post">
   
   <div class="form-group">
-    <label for="">Username</label>
+    <label for="name">Username</label>
     <input type="text" class="form-control" id="" name="user" placeholder="Enter your username">
   </div>
   <div class="form-group">
-    <label for="">Password</label>
+    <label for="pass">Password</label>
     <input type="password" class="form-control" id="" name="pass" placeholder="Insert your password">
   </div>
   
